@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-image: url(https://i.pinimg.com/564x/d7/46/57/d7465745624be3996ce25a2b9d37436c.jpg);
+            background-position: left top;
+            padding: 10px;
+            color: white;
+        }
+        div {
+            background-color: rgba(0, 0, 0, 0.514);
+        }
+        nav {
+            text-align: left;
+        }
+        nav > a {
+            font-weight: bold;
+            margin-right: 10px;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: pink;
+        }
+        img {
+            width: 300px;
+            margin: auto;
+        }
+        footer {
+            background-color: pink;
+        }
+        footer > h1 {
+            font-weight: normal;
+            font-size: 1.5em;
+        }
+        #social > #insta::before {
+            content: "";
+            display: inline-block;
+            width: 20px; /* Defina o tamanho desejado em pixels */
+            height: 20px; /* Defina o tamanho desejado em pixels */
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png) no-repeat;
+            background-size: contain; /* Garante que a imagem seja ajustada dentro do tamanho definido */
+            margin-right: 5px; /* Ajuste o espaçamento conforme necessário */
+        }
+        #social > #facebook::before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/480px-Facebook_f_logo_%282019%29.svg.png);
+            background-size: contain;
+            margin-right: 5px;
+        }
+        #social > #twitter::before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            background: url(https://www.al.al.leg.br/imagens/Twitterlogo.png/image);
+            background-size: cover;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Arielly Nails</h1>
+            <p>Fazendo suas unhas mais bonitas.</p>
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Catálogo</a>
+            <a href="#">Cores</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, inventore dolorem. Distinctio ipsum repellat optio dicta voluptate et explicabo deserunt neque incidunt magni, corrupti vitae modi similique voluptas quae repudiandae eius hic laboriosam magnam quia commodi! Magni libero blanditiis voluptatibus quae nostrum, atque sequi dignissimos at amet iusto ut aliquam similique pariatur molestias eaque cum dolorem eum cupiditate! Asperiores suscipit vitae blanditiis aliquam, voluptate nesciunt ratione labore ipsa inventore nisi! Amet esse eaque quasi unde doloribus, mollitia ratione. Quidem dolores eaque tempore. Beatae, impedit, sed eveniet a voluptate vel quisquam sunt esse ducimus excepturi voluptatibus. Mollitia ullam ducimus neque. Totam.
+        </p>
+        <img src="https://i.pinimg.com/564x/0d/d5/12/0dd51252d04cca6726295d34b538ef84.jpg" alt="">
+    </main>
+    <footer>
+        <h1>Site criado por Alysson</h1>
+        <p>Ariely começou agora no ramo de unhas, seja paciente.</p>
+        <nav id="social">
+            <a href="#" id="insta">Instagram</a>
+            <a href="#" id="facebook">Facebook</a>
+            <a href="#" id="twitter">Twitter</a>
+        </nav>
+    </footer>
+</body>
+</html>
